@@ -1,0 +1,82 @@
+*{
+     margin: 0px;
+     padding: 0px;
+    
+}
+html{
+     background-color: black;
+    
+}
+body{
+     background-color: red;
+     height: 900px;
+     width: 800px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: auto;
+     margin-right: auto;
+}
+#header{
+     height: 150px;
+     width: 100%;
+     background-color:rgb(135, 224, 194);
+}
+#nav{
+     height: 50px;
+     background-color:rgba(35, 102, 102, 0.315);
+}
+#nav #lidec{
+     text-align: center;
+}
+#container{
+     height: 600px;
+     background-color: silver;
+
+}
+#footer{
+     height: 100px;
+     background-color: rgb(135, 224, 194);
+}
+#lidec li{
+     list-style-type: none;
+     display: inline;
+     padding-left: 10px;
+     padding-right: 10px;
+     line-height: 50px;
+     
+     
+}
+#lidec li a{
+     color: white;
+     text-decoration: none;
+     
+}
+#lidec li a:hover{
+     color: black;
+}
+#logo{
+     width: 25%;
+     height: 100%;
+     background-color: greenyellow;
+     float: left;
+}
+#logo h1{
+     padding-top: 20px;
+}
+#logotext{
+     height: 100%;
+     width: 75%;
+     background-color: blueviolet;
+     float: right;
+}
+#footer{
+     line-height: 100px;
+     text-align:center;
+}
+
+.h1style{
+     text-align: center;
+}
+.h5style{
+     text-align: center;
+}
